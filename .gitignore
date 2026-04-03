@@ -1,7 +1,21 @@
-checkpoints/*
-examples/output_*
-examples/input_*
-examples/.DS_Store
-.DS_Store
+# model weights
+checkpoints/
 
-*.pyc
+# inference outputs
+examples/input_video_frames/
+examples/output_delighting/
+examples/output_relighting/
+examples/.DS_Store
+
+# uv
+.venv/
+uv.lock
+
+# misc
+.DS_Store
+.vscode/
+__pycache__/
+*.py[cod]
+*$py.class
+*.out
+*.swp
